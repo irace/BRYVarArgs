@@ -1,6 +1,6 @@
 # BRYVarArgs
 
-A nicer syntax for enumerating variable arguments
+A nicer syntax for enumerating variable arguments.
 
 ## Installation
 
