@@ -10,23 +10,7 @@
 		93A9F36E187759BD000F6179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A9F36D187759BD000F6179 /* Foundation.framework */; };
 		93A9F373187759BD000F6179 /* BRYVarArgs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93A9F372187759BD000F6179 /* BRYVarArgs.h */; };
 		93A9F375187759BD000F6179 /* BRYVarArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A9F374187759BD000F6179 /* BRYVarArgs.m */; };
-		93A9F37C187759BD000F6179 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A9F37B187759BD000F6179 /* XCTest.framework */; };
-		93A9F37D187759BD000F6179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A9F36D187759BD000F6179 /* Foundation.framework */; };
-		93A9F37F187759BD000F6179 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A9F37E187759BD000F6179 /* UIKit.framework */; };
-		93A9F382187759BD000F6179 /* libBRYVarArgs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A9F36A187759BD000F6179 /* libBRYVarArgs.a */; };
-		93A9F388187759BD000F6179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93A9F386187759BD000F6179 /* InfoPlist.strings */; };
-		93A9F38A187759BD000F6179 /* BRYVarArgsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A9F389187759BD000F6179 /* BRYVarArgsTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		93A9F380187759BD000F6179 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93A9F362187759BD000F6179 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93A9F369187759BD000F6179;
-			remoteInfo = BRYVarArgs;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		93A9F368187759BD000F6179 /* CopyFiles */ = {
@@ -44,15 +28,10 @@
 /* Begin PBXFileReference section */
 		93A9F36A187759BD000F6179 /* libBRYVarArgs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBRYVarArgs.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A9F36D187759BD000F6179 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		93A9F371187759BD000F6179 /* BRYVarArgs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRYVarArgs-Prefix.pch"; sourceTree = "<group>"; };
 		93A9F372187759BD000F6179 /* BRYVarArgs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRYVarArgs.h; sourceTree = "<group>"; };
 		93A9F374187759BD000F6179 /* BRYVarArgs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRYVarArgs.m; sourceTree = "<group>"; };
-		93A9F37A187759BD000F6179 /* BRYVarArgsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRYVarArgsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A9F37B187759BD000F6179 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		93A9F37E187759BD000F6179 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		93A9F385187759BD000F6179 /* BRYVarArgsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRYVarArgsTests-Info.plist"; sourceTree = "<group>"; };
-		93A9F387187759BD000F6179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		93A9F389187759BD000F6179 /* BRYVarArgsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRYVarArgsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,25 +43,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93A9F377187759BD000F6179 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93A9F382187759BD000F6179 /* libBRYVarArgs.a in Frameworks */,
-				93A9F37C187759BD000F6179 /* XCTest.framework in Frameworks */,
-				93A9F37F187759BD000F6179 /* UIKit.framework in Frameworks */,
-				93A9F37D187759BD000F6179 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		93A9F361187759BD000F6179 = {
 			isa = PBXGroup;
 			children = (
-				93A9F36F187759BD000F6179 /* BRYVarArgs */,
-				93A9F383187759BD000F6179 /* BRYVarArgsTests */,
+				93A9F36F187759BD000F6179 /* Classes */,
 				93A9F36C187759BD000F6179 /* Frameworks */,
 				93A9F36B187759BD000F6179 /* Products */,
 			);
@@ -92,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				93A9F36A187759BD000F6179 /* libBRYVarArgs.a */,
-				93A9F37A187759BD000F6179 /* BRYVarArgsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,40 +73,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		93A9F36F187759BD000F6179 /* BRYVarArgs */ = {
+		93A9F36F187759BD000F6179 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				93A9F372187759BD000F6179 /* BRYVarArgs.h */,
 				93A9F374187759BD000F6179 /* BRYVarArgs.m */,
-				93A9F370187759BD000F6179 /* Supporting Files */,
 			);
-			path = BRYVarArgs;
-			sourceTree = "<group>";
-		};
-		93A9F370187759BD000F6179 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				93A9F371187759BD000F6179 /* BRYVarArgs-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		93A9F383187759BD000F6179 /* BRYVarArgsTests */ = {
-			isa = PBXGroup;
-			children = (
-				93A9F389187759BD000F6179 /* BRYVarArgsTests.m */,
-				93A9F384187759BD000F6179 /* Supporting Files */,
-			);
-			path = BRYVarArgsTests;
-			sourceTree = "<group>";
-		};
-		93A9F384187759BD000F6179 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				93A9F385187759BD000F6179 /* BRYVarArgsTests-Info.plist */,
-				93A9F386187759BD000F6179 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,24 +101,6 @@
 			productName = BRYVarArgs;
 			productReference = 93A9F36A187759BD000F6179 /* libBRYVarArgs.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		93A9F379187759BD000F6179 /* BRYVarArgsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93A9F390187759BD000F6179 /* Build configuration list for PBXNativeTarget "BRYVarArgsTests" */;
-			buildPhases = (
-				93A9F376187759BD000F6179 /* Sources */,
-				93A9F377187759BD000F6179 /* Frameworks */,
-				93A9F378187759BD000F6179 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93A9F381187759BD000F6179 /* PBXTargetDependency */,
-			);
-			name = BRYVarArgsTests;
-			productName = BRYVarArgsTests;
-			productReference = 93A9F37A187759BD000F6179 /* BRYVarArgsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -203,21 +124,9 @@
 			projectRoot = "";
 			targets = (
 				93A9F369187759BD000F6179 /* BRYVarArgs */,
-				93A9F379187759BD000F6179 /* BRYVarArgsTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		93A9F378187759BD000F6179 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93A9F388187759BD000F6179 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93A9F366187759BD000F6179 /* Sources */ = {
@@ -228,34 +137,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93A9F376187759BD000F6179 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93A9F38A187759BD000F6179 /* BRYVarArgsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		93A9F381187759BD000F6179 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93A9F369187759BD000F6179 /* BRYVarArgs */;
-			targetProxy = 93A9F380187759BD000F6179 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		93A9F386187759BD000F6179 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93A9F387187759BD000F6179 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		93A9F38B187759BD000F6179 /* Debug */ = {
@@ -333,7 +215,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/BRYVarArgs.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BRYVarArgs/BRYVarArgs-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -345,48 +226,9 @@
 			buildSettings = {
 				DSTROOT = /tmp/BRYVarArgs.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BRYVarArgs/BRYVarArgs-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		93A9F391187759BD000F6179 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BRYVarArgs/BRYVarArgs-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BRYVarArgsTests/BRYVarArgsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		93A9F392187759BD000F6179 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BRYVarArgs/BRYVarArgs-Prefix.pch";
-				INFOPLIST_FILE = "BRYVarArgsTests/BRYVarArgsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -407,14 +249,6 @@
 			buildConfigurations = (
 				93A9F38E187759BD000F6179 /* Debug */,
 				93A9F38F187759BD000F6179 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		93A9F390187759BD000F6179 /* Build configuration list for PBXNativeTarget "BRYVarArgsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93A9F391187759BD000F6179 /* Debug */,
-				93A9F392187759BD000F6179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
