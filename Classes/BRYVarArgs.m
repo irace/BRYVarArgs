@@ -8,16 +8,15 @@
 
 #import "BRYVarArgs.h"
 
-void BRYVarArgs(void (^block)(id argument), id arguments, ...) {
-    if (arguments && block) {
+void BRYVarArgs(void (^block)(id argument), id argument, ...) {
+    if (argument && block) {
         va_list argumentList;
-        va_start(argumentList, arguments);
-        
-        id argument = nil;
-        
-        while ((argument = va_arg(argumentList, id))) {
+        va_start(argumentList, argument);
+
+        do {
             block(argument);
         }
+        while ((argument = va_arg(argumentList, id)));
         
         va_end(argumentList);
     }
